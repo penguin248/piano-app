@@ -20,6 +20,7 @@ html {
   width: 949px;
   height: 180px;
   padding-left: 2px;
+  overflow: hidden;
 }
 .key {
   background-color: #ffffff;
@@ -40,10 +41,12 @@ html {
   border-radius: 0 0 3px 3px;
 }
 @media (max-width: 768px) {
-    #piano {
-        width: 358px;
-    }
-    .keys {
-        width: 318px;
-    }
+  #piano {
+    width: 358px;
+  }
+  .keys {
+    width: 318px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1199px) {
 }
